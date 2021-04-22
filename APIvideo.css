@@ -1,0 +1,58 @@
+
+h3{
+	text-align: center;
+	margin-top: 2cm;
+}
+
+h5{
+	text-align: center;
+}
+
+input{
+	margin-left: 14cm;;
+}
+
+#videoPlayer{
+	margin-left: 14cm;
+}
+
+
+#videoButtons{
+	margin-left: 14cm;
+	border-color: gray;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	width: 172mm;
+	height: 10mm;
+}
+
+.button {
+	padding: 4px;
+	margin: 5px;
+    color: white;
+    background-color: gray;
+	border-radius: 4px;
+	width: 25mm;
+    }
+
+#play {
+   margin-left: 10mm;
+}
+
+#pause {
+   margin-left: 15mm;
+}
+
+#vup {
+   margin-left: 15mm;
+}
+
+#vdown {
+   margin-left: 15mm;
+}
+
+
+	text-align: center;
+    justify-content: center;
+    align-items: center;

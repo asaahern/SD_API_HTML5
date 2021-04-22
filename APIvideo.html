@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	
+<head>
+    <meta charset="UTF-8">
+    <title> Reproducci&oacute;n de video de archivos locales </title>
+    <link rel="stylesheet" href="APIvideo.css">
+    <script src="APIvideo.js"></script>
+</head>
+
+<body>
+
+	<h3> Carga un fichero de v&iacute;deo desde una carpeta local </h3>
+	<input type="file" accept="video/mp4" onchange="handleFileSelect(event);"/>
+	<p id="validation"></p>
+	<p id="loading"></p>
+
+	<video  id="videoPlayer" width="650"> 
+       El reproductor que est&aacute;s usando no permite reproducir este contenido
+    </video>
+
+	<div id="videoButtons">
+		<button class="button" id="play" onclick="playVideo();">Reproducir</button>
+		<button class="button" id="pause" onclick="pauseVideo();">Pausa</button>
+		<button class="button" id="vup" onclick="increaseVolume();">Subir Volumen</button>
+		<button class="button" id="vdown" onclick="decreaseVolume();">Bajar Volumen</button>
+	</div>
+
+</body>
+
+</html>
